@@ -25,7 +25,7 @@ The rule applies to any [non-streaming](#non-streaming) `video` element [visible
 
 ### Expectation
 
-For each test target, the outcome of of at least one of the following rules is passed:
+For each test target, the outcome of at least one of the following rules is passed:
 
 - [video element audio described](SC1-2-video-audio-description)
 - [video element transcript](SC1-2-video-transcript)
