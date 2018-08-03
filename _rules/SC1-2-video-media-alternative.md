@@ -6,7 +6,7 @@ description: |
 test_aspects:
 - DOM Tree
 - CSS Styling
-- [Audio output][]
+- [Audio output](#audio-output)
 
 authors:
 - Wilco Fiers
@@ -41,7 +41,10 @@ There are no major accessibility support issues known for this rule.
 
 ## Background
 
-- 
+- http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html
+- http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html
+- https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G78
+- https://www.w3.org/WAI/GL/2016/WD-WCAG20-TECHS-20160105/H96
 
 ## Test cases
 
