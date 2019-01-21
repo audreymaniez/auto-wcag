@@ -17,7 +17,7 @@ authors:
 
 ### Applicability
 
-This rule applies to any element with the [semantic role](#semantic-role) of table cell that is either [visible](#visible) or [included in the accessibility tree](#included-in-the-accessibility-tree), part of a data table and associated with more than one row or column.
+This rule applies to any element with the [semantic role](#semantic-role) of table cell that is either [visible](#visible) or [included in the accessibility tree](#included-in-the-accessibility-tree) and part of a data table.
 
 ### Expectation (1)
 
