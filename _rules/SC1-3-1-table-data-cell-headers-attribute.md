@@ -3,7 +3,7 @@ name: Data cells has a `headers` attribute
 test_type: atomic
 
 description: |
-  This rule checks that each data table cell has a `headers` attribute that references appropriate header cell `id`.
+  This rule checks that each data table cell has a `headers` attribute that references appropriates header cells `id`.
 
 test_aspects:
 - DOM Tree
@@ -21,7 +21,7 @@ This rule applies to any element with the [semantic role](#semantic-role) of tab
 
 ### Expectation (1)
 
-Each target element has a `headers` element that lists the `id` for all headers associated with that cell.
+Each target element has a `headers` attribut that lists the `id` of all headers associated with that cell.
 
 ## Assumptions
 
@@ -43,7 +43,7 @@ Each target element has a `headers` element that lists the `id` for all headers 
 
 #### Passed example 1
 
-The data cell is associated with two columns. The `headers` attribute on the data cell lists all the `id` for all headers associated with it.
+The data cell is associated with two columns. The `headers` attribute on the data cell lists the `id` of all headers associated with it.
 
 ```html
 <table>
@@ -59,7 +59,7 @@ The data cell is associated with two columns. The `headers` attribute on the dat
 
 #### Passed example 2
 
-Data cells are both associated with two columns. The `headers` attribute on each data cell lists all the `id` for all headers associated with it.
+Data cells are both associated with two columns. The `headers` attribute on each data cell lists the `id` of all headers associated with it.
 
 ```html
 <table>
@@ -83,7 +83,7 @@ Data cells are both associated with two columns. The `headers` attribute on each
 
 #### Passed example 3
 
-Each data cells are associated with only one column. The `headers` attribute on each data cell lists all the `id` for all headers associated with it.
+Each data cells are associated with only one column. The `headers` attribute on each data cell lists the `id` of all headers associated with it.
 
 ```html
 <div role="table">
