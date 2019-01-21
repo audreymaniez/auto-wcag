@@ -1,5 +1,5 @@
 ---
-name:
+name: Data cells has a `headers` attribute
 test_type: atomic
 
 description: |
